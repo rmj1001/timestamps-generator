@@ -1,7 +1,12 @@
 use cli_timestamps_generator::prelude::*;
+use std::env::args;
 
 fn main() {
     let mut timestamps: Vec<Timestamp> = vec![];
+
+    if args().any(|arg| arg.to_lowercase() == "--use-file") {
+        timestamps = rebuild_timestamps();
+    }
 
     loop {
         title();
