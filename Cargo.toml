@@ -3,6 +3,8 @@ name = "cli_timestamps_generator"
 version = "0.1.0"
 edition = "2021"
 license-file = "./LICENSE.md"
+description = "Command Line timestamp processor."
+repository = "https://github.com/rmj1001/timestamps-generator"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
