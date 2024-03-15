@@ -1,4 +1,4 @@
-use youtube_timestamps_generator::prelude::*;
+use cli_timestamps_generator::prelude::*;
 
 fn main() {
     let mut timestamps: Vec<Timestamp> = vec![];
