@@ -1,8 +1,8 @@
 [package]
 name = "cli_timestamps_generator"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
-license-file = "./LICENSE.md"
+license = "BSD-3-Clause"
 description = "Command Line timestamp processor."
 repository = "https://github.com/rmj1001/timestamps-generator"
 
